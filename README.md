@@ -45,8 +45,8 @@ Setelah semua syarat terpenuhi, jalankan perintah berikut:
 
 1️⃣ Clone Repository
 
-git clone https://github.com/username/repository.git
-cd repository
+git clone https://github.com/BeniSyach/peminjaman_mobile.git
+cd peminjaman_mobile
 
 2️⃣ Install Dependencies
 
