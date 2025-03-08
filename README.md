@@ -1,49 +1,67 @@
-<h1 align="center">
-  <img alt="logo" src="./assets/icon.png" width="124px" style="border-radius:10px"/><br/>
-Mobile App </h1>
+📱 Project React Native
 
-> This Project is based on [Obytes starter](https://starter.obytes.com)
+Ini adalah proyek React Native yang menggunakan NativeWind untuk styling.
 
-## Requirements
+📌 Prasyarat
 
-- [React Native dev environment ](https://reactnative.dev/docs/environment-setup)
-- [Node.js LTS release](https://nodejs.org/en/)
-- [Git](https://git-scm.com/)
-- [Watchman](https://facebook.github.io/watchman/docs/install#buildinstall), required only for macOS or Linux users
-- [Pnpm](https://pnpm.io/installation)
-- [Cursor](https://www.cursor.com/) or [VS Code Editor](https://code.visualstudio.com/download) ⚠️ Make sure to install all recommended extension from `.vscode/extensions.json`
+Sebelum memulai, pastikan kamu sudah menginstal semua dependensi yang dibutuhkan:
 
-## 👋 Quick start
+1️⃣ Instalasi Node.js & pnpm
 
-Clone the repo to your machine and install deps :
+Node.js: Download Node.js
 
-```sh
-git clone https://github.com/user/repo-name
+pnpm (manajer paket cepat):
 
-cd ./repo-name
+npm install -g pnpm
+
+2️⃣ Instalasi React Native CLI & Android Studio
+
+Jalankan perintah berikut untuk menginstal React Native CLI secara global:
+
+pnpm add -g react-native-cli
+
+3️⃣ Instalasi Android Studio (untuk Android)
+
+Download & install Android Studio dari sini
+
+Pastikan Android SDK dan emulator sudah dikonfigurasi dengan benar.
+
+Tambahkan environment variable untuk ANDROID_HOME:
+
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+
+4️⃣ Instalasi Xcode (untuk iOS)
+
+Install Xcode dari Mac App Store
+
+Install CocoaPods untuk dependencies iOS:
+
+sudo gem install cocoapods
+
+🚀 Cara Menjalankan Proyek
+
+Setelah semua syarat terpenuhi, jalankan perintah berikut:
+
+1️⃣ Clone Repository
+
+git clone https://github.com/username/repository.git
+cd repository
+
+2️⃣ Install Dependencies
 
 pnpm install
-```
 
-To run the app on ios
+3️⃣ Jalankan Aplikasi
 
-```sh
-pnpm ios
-```
+Untuk Android:
 
-To run the app on Android
+pnpm run android
 
-```sh
-pnpm android
-```
+Untuk iOS:
 
-## ✍️ Documentation
+pnpm run ios
 
-- [Rules and Conventions](https://starter.obytes.com/getting-started/rules-and-conventions/)
-- [Project structure](https://starter.obytes.com/getting-started/project-structure)
-- [Environment vars and config](https://starter.obytes.com/getting-started/environment-vars-config)
-- [UI and Theming](https://starter.obytes.com/ui-and-theme/ui-theming)
-- [Components](https://starter.obytes.com/ui-and-theme/components)
-- [Forms](https://starter.obytes.com/ui-and-theme/Forms)
-- [Data fetching](https://starter.obytes.com/guides/data-fetching)
-- [Contribute to starter](https://starter.obytes.com/how-to-contribute/)
+📄 Lisensi
+
+Proyek ini menggunakan lisensi MIT.
